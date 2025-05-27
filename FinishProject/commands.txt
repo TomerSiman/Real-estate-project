@@ -1,0 +1,17 @@
+exit
+print-apts
+buy-apt 5
+buy-apt 2
+find-apt -MinPrice 1700000 -MaxPrice 2500000 -Date 07072020 -MaxNumRooms 6 -MinNumRooms 4
+find-apt -MinPrice 1700000 -MaxPrice 2500000 -Date 07072020 -MaxNumRooms 6 -MinNumRooms 4
+buy-apt 2
+find-apt -MinPrice 1000000 -MaxPrice 2200000 -Date 02052018 -MaxNumRooms 5 -MinNumRooms 3
+find-apt -MinPrice 1100000 -MaxPrice 2200000 -MaxNumRooms 3 -MinNumRooms 3 -Date 02052020
+add-apt "Laag 8 Tveria" 1150000 4 25 10 22
+find-apt -MinPrice 1500000 -MaxPrice 2200000 -MaxNumRooms 4
+add-apt "Leid 19 Modiin" 1300000 3 25 07 19
+add-apt "Misham 7 Modiin" 1500500 3 03 03 22
+find-apt -MinPrice 1750000 -MaxPrice 2000000
+add-apt "Hanarkisim 5 Kiryat Ono" 1700000 4 02 05 20
+add-apt "Hasavyonim 23 Ramat Ono" 2000000 4 01 01 20
+print-apts
